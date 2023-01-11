@@ -59,21 +59,7 @@ The purpose of the course "HTML & CSS" is to provide basic knowledge of web tech
     <li>Media Type
     <li>Media Feature Rules
     <li>Media Queries Conditions 
-   </ul> 
-  <li><a href="https://softuni.bg/trainings/3847/js-applications-october-2022#lesson-44798">Modular Applications<a/>
-  <ul>
-    <li>Component Approach
-    <li>Encapsulating Functionality
-    <li>Isolating State
-  </ul>
-  <li><a href="https://softuni.bg/trainings/3847/js-applications-october-2022#lesson-44804">Web Components<a/>
-  <ul>
-    <li>What are Web Components?
-    <li>Creating Elements and Shadow DOM
-    <li>HTML Templates and Slots
-    <li>Component Lifecycle
-    <li>Extending HTML Elements 
-  </ul>
+   </ul>  
 </ol> 
 
 ### 💡 Skills you will acquire
