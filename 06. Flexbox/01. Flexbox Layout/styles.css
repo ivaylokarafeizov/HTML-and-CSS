@@ -28,7 +28,6 @@ main {
   height: 200px;
 }
 aside {
-  flex: 2 1 20rem;
-  flex-grow: 1;
+  flex: 3 1 20rem; 
   height: 200px;
 }
