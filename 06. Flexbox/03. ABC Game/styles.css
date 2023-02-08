@@ -3,7 +3,7 @@ html {
   font-size: 20px;
 }
 
-div {
+.container {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
