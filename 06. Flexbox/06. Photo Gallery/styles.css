@@ -1,0 +1,17 @@
+body,
+ul,
+li {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+ul {
+  justify-content: space-between;
+}
+
+img {
+  border: 11px solid black;
+  padding: 20px 15px;
+  object-fit: contain;
+}
