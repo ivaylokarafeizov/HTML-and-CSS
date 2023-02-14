@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body {
+  background-image: url('images/background.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 111%;
+  font-family: 'Mulish', sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin-left: 10%;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.register-btn {
+  font-family: 'Mulish', sans-serif;
+  background-color: #ae3c33;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 15px;
+}
+
+input {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  padding: 8px 0;
+}
+
+.register-form {
+  overflow: scroll;
+  background-image: url('images/form-background.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 108% 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 45%;
+  height: 70%;
+  border-radius: 20px;
+  box-shadow: 18px 12px 15px 6px rgba(0, 0, 0, 0.3);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0 50px;
+  width: 50%;
+}
+
+label,
+p {
+  font-size: smaller;
+  color: rgb(140, 140, 140);
+}
+
+.double,
+.inputGroup {
+  gap: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2%;
+  margin-bottom: 5px;
+}
+
+.double .inputGroup {
+  flex-basis: 50%;
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+
+.double {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: stretch;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.terms {
+  margin: 2%;
+}
