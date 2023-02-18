@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import 'https://use.fontawesome.com/releases/v6.1.2/css/all.css';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin: 120px 400px 100px 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -80%);
+  border: rgb(188, 185, 185) solid 1px;
+}
+
+section {
+  width: 350px;
+  height: 400px;
+}
+
+h1 {
+  margin: 130px 20px 10px 20px;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+footer {
+  margin-top: 120px;
+  margin-left: 130px;
+}
+
+i {
+  padding: 5px;
+}
+
+label,
+input {
+  display: flex;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgb(188, 185, 185);
+  color: rgb(188, 185, 185);
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 80%;
+}
+
+label {
+  font-size: smaller;
+}
+
+button {
+  border: none;
+  background-color: black;
+  color: #fff;
+  padding: 8px 30px;
+  border-radius: 1rem;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+a {
+  color: rgb(188, 185, 185);
+  padding-left: 10px;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.card-desc {
+  background-image: url('image/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: 250%;
+  background-position: center;
+  color: #fff;
+}
+
+form {
+  padding-left: 20px;
+}
+
+.card-desc > p {
+  font-weight: bold;
+}
+
+.card-desc > p:nth-child(1) {
+  padding-right: 250px;
+}
